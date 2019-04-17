@@ -1,0 +1,86 @@
+/*
+CSS for the CS142 project #5 main page
+
+Since CSS uses a global name space for classes we should use class names starting with
+cs142-main- here.
+*/
+
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexline {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.material-icons {
+  vertical-align: middle !important;
+  padding-bottom: 4px;
+}
+
+.collection {
+  border: 0px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.nomargin {
+	margin: 0px;
+}
+
+.nopadding {
+	padding: 0px;
+}
+
+.imagefit {
+  object-fit: cover;
+}
+
+.fullheight {
+  min-height: 100vh !important;
+}
+
+.cs142-main-block {
+  display: inline-block;
+  padding: 5px;
+}
+
+.cs142-main-flex {
+  display: flex;
+}
+
+.cs142-main-bold {
+  font-weight: 700;
+}
+
+.cs142-main-padded {
+	padding-left: 20px;
+}
+
+.cs142-main-border {
+	border-left: 1px solid grey;
+}
+
+.cs142-main-photo {
+	padding-bottom: 10px;
+	font-style: italic;
+}
+
+.cs142-main-comment {
+	padding-bottom: 5px;
+}
+
+.cs142-main-navbar {
+	padding-left: 20px;
+	padding-right: 20px;
+}
